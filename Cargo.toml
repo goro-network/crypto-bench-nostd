@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-aes-gcm = { version = "0.10.2", default-features = false, features = ["heapless", "aes"] }
+aes-gcm = { version = "0.10.3", default-features = false, features = ["heapless", "aes"] }
 anyhow = { version = "1.0.71" }
 blake2 = { version = "0.10.6", default-features = false }
 blake3 = { version = "1.4.0", default-features = false, features = [
